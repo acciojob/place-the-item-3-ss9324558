@@ -1,2 +1,18 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.square {
+  width: 40px;
+  height: 40px;
+  background-color: #45f5ff;
+  transition: background-color 1s;
+  
+}
